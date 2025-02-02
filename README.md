@@ -22,6 +22,26 @@ Basic Problems
 
     Use Phaser to coordinate 3 phases of execution among 5 threads.
 
+    Implement a simple RecursiveTask to calculate the sum of an array of integers.
+
+    Use RecursiveAction to print numbers from 1 to 100 in parallel.
+
+    Implement a RecursiveTask to find the maximum value in an array.
+
+    Use ForkJoinPool to parallelize the computation of the factorial of a number.
+
+    Implement a RecursiveTask to compute the Fibonacci sequence.
+
+    Use RecursiveAction to multiply each element of an array by 2.
+
+    Implement a RecursiveTask to calculate the sum of squares of an array of integers.
+
+    Use ForkJoinPool to parallelize the computation of the sum of a large list of numbers.
+
+    Implement a RecursiveTask to find the minimum value in an array.
+
+    Use RecursiveAction to filter out even numbers from an array.
+
 Intermediate Problems
 
     Implement a thread-safe cache using ConcurrentHashMap.
@@ -43,6 +63,26 @@ Intermediate Problems
     Use ForkJoinPool to parallelize a recursive task (e.g., calculating Fibonacci numbers).
 
     Simulate a scenario where 3 threads print their IDs in a specific order using CyclicBarrier.
+
+    Implement a RecursiveTask to perform parallel matrix multiplication.
+
+    Use ForkJoinPool to parallelize the merge sort algorithm.
+
+    Implement a RecursiveTask to compute the dot product of two vectors.
+
+    Use RecursiveAction to perform parallel matrix addition.
+
+    Implement a RecursiveTask to find the number of occurrences of a specific element in an array.
+
+    Use ForkJoinPool to parallelize the quick sort algorithm.
+
+    Implement a RecursiveTask to compute the sum of elements in a 2D array.
+
+    Use RecursiveAction to transpose a matrix in parallel.
+
+    Implement a RecursiveTask to compute the average of an array of numbers.
+
+    Use ForkJoinPool to parallelize the computation of the sum of a large list of floating-point numbers.
 
 Advanced Problems
 
@@ -66,6 +106,26 @@ Advanced Problems
 
     Use CompletableFuture to combine the results of multiple asynchronous tasks.
 
+    Implement a RecursiveTask to perform parallel prefix sum (scan) on an array.
+
+    Use ForkJoinPool to parallelize the computation of the determinant of a matrix.
+
+    Implement a RecursiveTask to perform parallel reduction (e.g., sum, max, min) on a large dataset.
+
+    Use RecursiveAction to perform parallel image processing (e.g., applying a filter to an image).
+
+    Implement a RecursiveTask to compute the sum of elements in a binary tree.
+
+    Use ForkJoinPool to parallelize the computation of the nth prime number.
+
+    Implement a RecursiveTask to perform parallel histogram computation on an array of values.
+
+    Use RecursiveAction to perform parallel file processing (e.g., counting words in multiple files).
+
+    Implement a RecursiveTask to compute the sum of elements in a linked list.
+
+    Use ForkJoinPool to parallelize the computation of the sum of a large list of complex numbers.
+
 Real-World Scenarios
 
     Simulate a bank account with deposit and withdrawal operations using ReentrantLock.
@@ -88,6 +148,26 @@ Real-World Scenarios
 
     Use CompletableFuture to implement a pipeline of asynchronous tasks (e.g., data processing).
 
+    Implement a RecursiveTask to perform parallel search in a large dataset.
+
+    Use ForkJoinPool to parallelize the computation of the sum of a large list of transactions.
+
+    Implement a RecursiveTask to perform parallel aggregation (e.g., sum, average) on a large dataset.
+
+    Use RecursiveAction to perform parallel data transformation (e.g., converting a list of strings to uppercase).
+
+    Implement a RecursiveTask to perform parallel sorting of a large dataset.
+
+    Use ForkJoinPool to parallelize the computation of the sum of a large list of sensor readings.
+
+    Implement a RecursiveTask to perform parallel search in a graph.
+
+    Use RecursiveAction to perform parallel data compression (e.g., run-length encoding).
+
+    Implement a RecursiveTask to perform parallel data decompression (e.g., run-length decoding).
+
+    Use ForkJoinPool to parallelize the computation of the sum of a large list of stock prices.
+
 Challenging Problems
 
     Implement a custom thread pool with dynamic resizing using ThreadPoolExecutor.
@@ -109,3 +189,23 @@ Challenging Problems
     Use ConcurrentHashMap to implement a thread-safe cache with a TTL (Time-to-Live) feature.
 
     Implement a custom ExecutorService that prioritizes tasks based on their priority.
+
+    Implement a RecursiveTask to perform parallel matrix inversion.
+
+    Use ForkJoinPool to parallelize the computation of the sum of a large list of matrices.
+
+    Implement a RecursiveTask to perform parallel FFT (Fast Fourier Transform) computation.
+
+    Use RecursiveAction to perform parallel data encryption (e.g., AES encryption).
+
+    Implement a RecursiveTask to perform parallel data decryption (e.g., AES decryption).
+
+    Use ForkJoinPool to parallelize the computation of the sum of a large list of cryptographic hashes.
+
+    Implement a RecursiveTask to perform parallel Monte Carlo simulation.
+
+    Use RecursiveAction to perform parallel data validation (e.g., checking for duplicates in a large dataset).
+
+    Implement a RecursiveTask to perform parallel data deduplication (e.g., removing duplicates from a large dataset).
+
+    Use ForkJoinPool to parallelize the computation of the sum of a large list of random numbers.
